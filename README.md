@@ -1,2 +1,3 @@
 # Input-Output-Project
-Contains a script for converting input and output to and from strings and integers written in MASM
+
+Contains a script for converting input and output to and from strings and integers written in MASM. The purpose of this script is to take 10 numeric strings entered by the user, convert each of them into a 32-bit integer in order to perform various arithemtic operations, and then convert the integers back into strings so that they can be displayed. The information calculated by the script is the average and sum of the 10 entered numbers. The script will output an error message if the user enters a string that contains a non-numeric character, or if the number entered is too large to fit into a 32-bit register, and re-prompt them to enter another string. Only after the user successfully enteres 10 numeric strings will the script calculate the sum and average.
